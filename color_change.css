@@ -1,0 +1,33 @@
+/*Body Tag*/
+body{
+
+    /*Background color animation*/
+    animation: cc 10s ease-in-out;
+    /*For infinite loop*/
+    animation-iteration-count: infinite;
+}
+
+/*Defining CSS animation*/
+@keyframes cc {
+    /*Process*/
+    0%{
+        background-color: #CDEAC0;
+    }
+    25%{
+        background-color: #EFE9AE;
+    }
+    50%{
+        background-color: #FEC3A6;
+    }
+    75%{
+        background-color: #FF928B;
+    }
+    100%{
+        background-color: #CDEAC0;
+    }
+}
+
+/*For Sample Text*/
+h1{
+    text-align: center;
+}
